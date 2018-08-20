@@ -1,0 +1,362 @@
+body {
+  background: #ffffff;
+  margin: 0;
+}
+body.--dark-background {
+  background: #E5E5E5;
+}
+/********************
+*  NAVBAR STYLING   *
+********************/
+.navbar {
+  min-height: 70px;
+  border-radius: 0;
+  background: white
+}
+.navbar.--with-shadow {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.navbar>.container {
+  margin-top:  10px;
+}
+.navbar-brand {
+  margin-top: -7px;
+}
+.navbar-nav>li>a{
+color: black;
+font-size: 16px;
+}
+.navbar-nav>li>a:hover{
+  color: #2F80ED;
+  background: none;
+}
+.btn-nav {
+  background: #2F80ED;
+  color: #ffffff;
+  border-radius: 6px;
+  padding: 0.5em 2em;
+  margin-top: -10px;
+  font-size: 16px;
+  border-color: #2F80ED;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+}
+.btn-nav:hover {
+  background: transparent;
+  color: #2F80ED;
+  border-color: #2F80ED;
+}
+.navbar .navbar-toggle, .navbar .navbar-toggle,
+.navbar .navbar-toggle:hover, .navbar .navbar-toggle:focus {
+	background: #2f80ed;
+  border-color: #2f80ed;
+  color: #ffffff;
+}
+.navbar .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-collapse {
+text-align: center;
+}
+
+/********************
+* HOMEPAGE STYLING  *
+********************/
+.big__header {
+  font-size: 72px;
+  color: #2f80ed;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+.btn-itarj {
+  color: #ffffff;
+  background: #2F80ED;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 4px;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+.btn-itarj:hover {
+  color: #2F80ED;
+  background: transparent;
+  border-color: #2f80ed;
+}
+.search {
+	position: relative;
+  top: -35px;
+  left: 10px;
+  font-size: 20px;
+  color: #2f80ed;
+}
+.search__input {
+  padding-left: 35px !important;
+  padding-top: 1.2em !important;
+  padding-bottom: 1.2em !important;
+  font-size: 20px;
+}
+.stats {
+  font-size: 27px;
+}
+.links, a {
+  font-size: 21px;
+  color: #2f80ed;
+}
+.links>a:hover, a:hover {
+  text-decoration: none;
+  color: black;
+}
+hr {
+  border-color: #2f81ed7c;
+  border-top-width: 2px;
+}
+.blog_link {
+  font-size: 19px;
+  color: #2f80ed;
+  text-decoration: none;
+}
+.blog_link:hover {
+  color: black;
+  text-decoration: none;
+}
+@media (max-width: 760px) {
+  .landing__image {
+    display: none;
+  }
+  .btn-itarj {
+    margin-bottom: 1em;
+  }
+  .footer__links {
+    display: block !important;
+  }
+  .auth-form {
+    padding: 2em;
+  }
+  .pull-right {
+    float: none !important;
+  }
+}
+#landing-copyright {
+	font-size: 20px;
+	line-height: 24px;
+	float: right;
+	padding-bottom: 25px;
+}
+/*************************
+*   Authentication pages *
+*************************/
+.auth-form-container {
+  margin: 50px auto;
+  background: white;
+  border-radius: 10px;
+  padding: 2em 0;
+  float: none;
+}
+.auth-form{
+  max-width: 500px;
+  float: none;
+  margin: 0 auto;
+}
+.form-control {
+  padding: 1.2em;
+  font-size: 20px;
+}
+.signin-line {
+	border: 1px solid #bdbdbd;
+  height: 1px;
+  position: relative;
+  max-width: 100%;
+  text-align: center;
+  margin-top: 70px;
+}
+.signin-with {
+	font-size: 28px;
+  color: #BDBDBD;
+  position: relative;
+  top: -18px;
+  padding: 0 60px;
+  background-color: #fff;
+}
+.socials-wrapper {
+  margin-top: 3em;
+}
+.socials {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 10px;
+}
+.google {
+	background: #dd5125;
+	border-color: #dd5125;
+	color: #fff;
+	font-size: 21px;
+}
+.google:hover {
+	background: #fff;
+	color: #dd5125;
+}
+.facebook {
+	background: #3b5998;
+	border-color: #3b5998;
+	color: #fff;
+	font-size: 21px;
+}
+.facebook:hover {
+	background: #fff;
+	color: #3b5998;
+}
+.twitter {
+	background: #1da1f2;
+	border-color: #1da1f2;
+	color: #fff;
+	font-size: 21px;
+}
+.twitter:hover {
+	background: #fff;
+	color: #1da1f2;
+}
+.botto {
+  margin-top: 2em;
+}
+.botto>p {
+  font-size: 19px;
+}
+/***********************
+*  Footer styling     *
+***********************/
+.footer {
+  background: #2f80ed;
+  width: 100%;
+  color: #fff;
+  line-height: 1.5;
+  padding-bottom: 30px;
+  bottom: 0
+}
+.footer .row {
+  padding-top: 3em;
+}
+.footer__links {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__links_single {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+}
+.footer__links.--right {
+  justify-content: flex-end;
+}
+.footer__links__social {
+  color: #ffffff;
+  margin: 0 20px;
+  font-size: 19px;
+}
+.footer__links__social:hover {
+  color: black;
+}
+.footer-line {
+  border-color: #ffffff;
+}
+.space {
+	margin-top: -10px;
+}
+#copy {
+	margin-top: 20px;
+}
+#subscribe-div {
+	margin-top: 30px;
+}
+#subscribe-div .form-control {
+  padding: 0.3em;
+  font-size: 16px;
+  background: transparent;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+#subscribe-div button {
+  color: #06d6a0;
+  background: #fff;
+}
+/*************************
+*    Search Page          *
+*************************/
+.user-search {
+	padding-left: 20px;
+	background: #fafafa;
+  border: 1px solid #bdbdbd;
+  border-radius: 6px;
+}
+.usersearch {
+	position: relative;
+	float: right;
+  top: -33px;
+  right: 20px;
+  color: #2F80ED;
+}
+.dash-icon {
+	display: inline-block;
+  position: relative;
+  width: 25px;
+  height: 25px;
+  margin-right: 15px;
+}
+.dash-icon i {
+	color: #78abf1;
+  font-size: 25px;
+}
+.dash-icon p {
+	display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #fa1212;
+  position: relative;
+  top: -40px;
+  left: 12px;
+  font-size: 12px;
+  line-height: 14px;
+}
+.dash-icon a p {
+  color: #fff;
+}
+.dashboard-dropdown {
+	margin-top: 8px;
+}
+.--with-margins {
+  margin: 0 5px;
+}
+.search-results-wrapper {
+  margin: auto;
+  margin-bottom: 80px;
+  max-width: 900px;
+}
+.search-results-wrapper h1,
+.search-results-wrapper h1>a {
+  font-size: 27px;
+}
+.search-results-wrapper h3 {
+  border-bottom: 2px solid rgba(51, 51, 51, 0.301);
+  padding-left: 2em;
+  padding-bottom: 0.7em;
+  font-size: 21px;
+}
+.returned-results {
+  border: 1px solid rgba(51, 51, 51, 0.301);
+  border-radius: 4px;
+}
+.result-card {
+  margin: 2.5em;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 1.5em;
+  border-radius: 4px;
+}
+.result-card a,
+.result-card p {
+  font-size: 16px;
+}
+.dash-card {
+  max-width: 350px;
+  margin-bottom: 40px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 10px 0 0 0;
+}
